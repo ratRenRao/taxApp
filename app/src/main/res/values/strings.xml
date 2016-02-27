@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Richardson CS3270A6</string>
+    <string name="caption_text">Practice Making Change</string>
+    <string name="string_change_to_make">Change to Make</string>
+    <string name="string_zero_dollars">$0.00</string>
+    <string name="string_change_total">Change total so far</string>
+
+    <string name="fiftyD">$50</string>
+    <string name="twentyD">$20</string>
+    <string name="tenD">$10</string>
+    <string name="fiveD">$5</string>
+    <string name="oneD">$1</string>
+    <string name="fiftyC">.50</string>
+    <string name="twentyfiveC">.25</string>
+    <string name="tenC">.10</string>
+    <string name="fiveC">.05</string>
+    <string name="oneC">.01</string>
+
+    <string name="start_over">Start Over</string>
+    <string name="new_amount">New Amount</string>
+    <string name="correct_count">Correct Change Count</string>
+    <string name="zero">0</string>
+
+    <string name="menuZero">Zero Correct Count</string>
+    <string name="menuSetMax">Set Change Max</string>
+    <string name="string_max_change">Maximum Change Amount</string>
+    <string name="string_save">Save</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

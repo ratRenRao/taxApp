@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangeActions">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/layoutControls"
+        android:gravity="center"
+        android:padding="15sp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_over"
+            android:id="@+id/buttonStartOver"
+            android:gravity="center"
+            android:layout_marginRight="15sp"
+            android:textSize="18sp"
+            android:tag="false"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_amount"
+            android:id="@+id/buttonNewAmount"
+            android:layout_gravity="fill_horizontal|center_horizontal"
+            android:gravity="center"
+            android:layout_marginLeft="15sp"
+            android:textSize="18sp"
+            android:tag="true"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/correct_count"
+        android:layout_below="@+id/layoutControls"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:id="@+id/textCorrectCountLabel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zero"
+        android:id="@+id/textCorrectCountValue"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_marginEnd="43dp"
+        android:layout_below="@+id/layoutControls"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
